@@ -12,7 +12,7 @@ const roomNameDisplay = document.getElementById('room-name');
 let currentUserId = sessionStorage.getItem("currentUser");
 let currentUsername = '';
 let lastMessageTime = Date.now();
-const API_URL = APP_CONFIG.API_URL || 'http://localhost:8000';
+const API_URL = "https://lk-glfw.onrender.com";
 
 roomButtons.forEach(btn => {
     btn.addEventListener('click', () => {
